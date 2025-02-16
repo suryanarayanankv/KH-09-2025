@@ -6,7 +6,7 @@ ESP32_PORT = 12345          # ESP32's UDP port (not used in Python script)
 
 # Python script's IP and port
 PYTHON_IP = "0.0.0.0"       # Listen on all available interfaces
-PYTHON_PORT = 54321         # Port to listen on (must match ESP32's remotePort)
+PYTHON_PORT = 12345      # Port to listen on (must match ESP32's remotePort)
 
 # Create a UDP socket
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
