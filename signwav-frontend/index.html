@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN-WAV - Understanding Sign Language Effortlessly</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SIGN-WAV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner-section">
+      <div class="container text-center">
+        <h1 class="display-1 fw-bold">SIGN-WAV</h1>
+        <p class="lead">Understanding sign language effortlessly</p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Static Gesture Column -->
+          <div class="col-md-6">
+            <div class="feature-card">
+              <h2 class="text-center mb-4">
+                <i class="bi bi-hand-index"></i>
+                Static Gesture
+              </h2>
+              <div class="text-area mb-3">
+                <textarea class="form-control" rows="4" placeholder="Static gesture translation will appear here..."></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary">
+                  <i class="bi bi-volume-up"></i>
+                  Convert to Speech
+                </button>
+                <button class="btn btn-secondary">
+                  <i class="bi bi-translate"></i>
+                  Translate
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Gesture Column -->
+          <div class="col-md-6">
+            <div class="feature-card">
+              <h2 class="text-center mb-4">
+                <i class="bi bi-hand-index-thumb"></i>
+                Dynamic Gesture
+              </h2>
+              <div class="text-area mb-3">
+                <textarea class="form-control" rows="4" placeholder="Dynamic gesture translation will appear here..."></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary">
+                  <i class="bi bi-volume-up"></i>
+                  Convert to Speech
+                </button>
+                <button class="btn btn-secondary">
+                  <i class="bi bi-translate"></i>
+                  Translate
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="about-content text-center">
+              <p class="lead">
+                SIGN-WAV is dedicated to breaking down communication barriers between the deaf community and the hearing world. Our innovative platform combines cutting-edge technology with user-friendly design to make sign language interpretation accessible to everyone.
+              </p>
+              <p>
+                We believe in creating a more inclusive world where everyone can communicate freely, regardless of their hearing ability. Our advanced gesture recognition system supports both static and dynamic sign language interpretation, making it easier than ever to bridge the communication gap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
